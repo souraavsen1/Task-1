@@ -5,3 +5,7 @@
 .text-prototype{
   font-family: 'Prototype', arial;
 }
+
+.banner{
+  height: 50vh;
+}
