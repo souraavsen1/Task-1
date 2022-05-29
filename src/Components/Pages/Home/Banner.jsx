@@ -2,7 +2,7 @@ import React from "react";
 
 const Banner = () => {
   return (
-    <div className='mx-12'>
+    <div className='mx-12 pb-10'>
       <div className='banner flex justify-between'>
         <div className='w-8/12'>
           <h2 className='text-3xl text-secondary mt-6 mb-12'>Here will be a Title</h2>
