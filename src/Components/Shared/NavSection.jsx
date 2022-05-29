@@ -2,7 +2,7 @@ import React from "react";
 
 const NavSection = () => {
   return (
-    <div className='w-screen py-3'>
+    <div className='w-full py-3'>
       <div className='flex justify-between items-center mx-8 py-4'>
         <div className='uppercase font-extrabold text-3xl text-prototype'>
           Logo

@@ -1,16 +1,13 @@
 import React from "react";
-import speaker from "../../../asstes/speaker.png";
-import message from "../../../asstes/message.png";
-import human from "../../../asstes/human_listen.png";
+import speaker from "../../../asstes/Images/speaker.png";
+import message from "../../../asstes/Images/message.png";
+import human from "../../../asstes/Images/human_listen.png";
+import SectionTitle from "../../Shared/SectionTitle";
 
 const Supports = () => {
   return (
-    <div className='my-16'>
-      <div className='w-screen border-b border-dashed border-black relative'>
-        <h1 className='absolute left-1/3 -top-4 ml-4 uppercase text-center text-3xl text-secondary font-medium bg-primary px-8'>
-          Available for everyone
-        </h1>
-      </div>
+    <div className='py-16'>
+      <SectionTitle title={"Available for everyone"} />
       <div>
         <h4 className='text-xl font-medium text-center my-6'>
           Here will be a text
