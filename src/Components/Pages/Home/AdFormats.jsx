@@ -19,8 +19,9 @@ const AdFormats = () => {
       <div className='py-8 flex justify-evenly'>
         {adData.map((btn, index) => (
           <Button
+            key={btn.key}
             text={btn.title}
-            bgcolor={data.key === btn.key ? "bg-tomoto" : "bg-primary"}
+            bgcolor={data.key === btn.key ? "bg-tomoto" : "bg-lightGray"}
             color={data.key === btn.key ? "text-white" : "text-black"}
             id={index}
             handleActive={handleActive}
@@ -29,7 +30,7 @@ const AdFormats = () => {
       </div>
       <div className='mt-10'>
         <div className='banner mx-20 flex justify-between'>
-          <div className='w-5/12 bg-secondary flex justify-center items-center'>
+          <div className='w-5/12 bg-purple flex justify-center items-center'>
             <div className='text-white text-2xl'>
               <h4 className='text-center font-medium '>Artwork for title 1</h4>
               <h4 className='text-center mt-10'>
@@ -45,7 +46,7 @@ const AdFormats = () => {
                 <React.Fragment>{data.details}</React.Fragment>
               </div>
             </div>
-            <div className='text-secondary text-xl font-medium flex items-center cursor-pointer'>
+            <div className='text-purple text-xl font-medium flex items-center cursor-pointer'>
               <h4>Learn more</h4>
               <Icons.Share className='w-4 ml-2 mt-1' />
             </div>

@@ -5,7 +5,9 @@ const Banner = () => {
     <div className='mx-12 pb-10'>
       <div className='banner flex justify-between'>
         <div className='w-8/12'>
-          <h2 className='text-3xl text-secondary mt-6 mb-12'>Here will be a Title</h2>
+          <h2 className='text-3xl text-purple mt-6 mb-12'>
+            Here will be a Title
+          </h2>
           <div className='w-full flex justify-start items-center'>
             <h4 className='font-medium text-2xl'>Here will be a text</h4>
           </div>

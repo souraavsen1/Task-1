@@ -2,6 +2,7 @@ import React from "react";
 import AdFormats from "./AdFormats";
 import Banner from "./Banner";
 import Details from "./Details";
+import Sliders from "./Sliders";
 import Supports from "./Supports";
 
 const Home = () => {
@@ -11,6 +12,7 @@ const Home = () => {
       <Supports />
       <AdFormats />
       <Details />
+      <Sliders />
     </div>
   );
 };

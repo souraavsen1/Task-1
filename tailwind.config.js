@@ -3,8 +3,8 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#F2F2F2",
-        secondary: "#644F9C",
+        lightGray: "#F2F2F2",
+        purple: "#644F9C",
         tomoto: "#FF6F00",
         darkGray: "#404040",
       },

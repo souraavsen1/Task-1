@@ -15,7 +15,7 @@ const NavSection = () => {
       </div>
       {/* NavItems */}
       <div className='flex justify-between items-center mx-10'>
-        <div className='w-9/12 flex justify-between items-center uppercase text-secondary text-opacity-80 font-medium'>
+        <div className='w-9/12 flex justify-between items-center uppercase text-purple text-opacity-80 font-medium'>
           <p className='text-tomoto cursor-pointer'>Home</p>
           <p className='cursor-pointer'>Advertisers</p>
           <p className='cursor-pointer'>Publishers</p>
@@ -25,7 +25,7 @@ const NavSection = () => {
           <p className='cursor-pointer'>Contact Us</p>
         </div>
         <div className='w-2/12 flex justify-evenly items-center bg-white rounded-full p-1.5 shadow-md shadow-gray-400'>
-          <button className='uppercase px-5 py-2 rounded-full font-medium'>
+          <button className='uppercase px-3 py-2 rounded-full font-medium'>
             Login
           </button>
           <button className='uppercase px-6 py-2 bg-tomoto text-white rounded-full shadow-md bg-opacity-90'>

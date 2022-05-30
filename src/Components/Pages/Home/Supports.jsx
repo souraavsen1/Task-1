@@ -22,20 +22,20 @@ const Supports = () => {
           />
           <h4 className='text-center text-xl font-medium mt-6'>Text 1</h4>
           <div>
-            <button className='py-2 px-20 rounded-full text-xl bg-secondary text-white mx-auto mt-12'>
+            <button className='py-2 px-20 rounded-full text-xl bg-purple text-white mx-auto mt-12'>
               Hello 1
             </button>
           </div>
         </div>
 
         <div>
-            <img
+          <img
             className='py-8 px-6 rounded-full bg-white shadow-md mx-auto'
             src={message}
             alt=''
           />
           <h4 className='text-center text-xl font-medium mt-6'>Text 2</h4>
-          <button className='py-2 px-20 rounded-full text-xl bg-secondary text-white mx-auto mt-12'>
+          <button className='py-2 px-20 rounded-full text-xl bg-purple text-white mx-auto mt-12'>
             Hello 2
           </button>
         </div>
@@ -47,7 +47,7 @@ const Supports = () => {
             alt=''
           />
           <h4 className='text-center text-xl font-medium mt-6'>Text 3</h4>
-          <button className='py-2 px-20 rounded-full text-xl bg-secondary text-white mx-auto mt-12'>
+          <button className='py-2 px-20 rounded-full text-xl bg-purple text-white mx-auto mt-12'>
             Hello 3
           </button>
         </div>
