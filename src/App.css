@@ -13,15 +13,46 @@
 .slick-prev {
   position: absolute !important;
   top: 110% !important;
-  left: 45% !important;
+  left: 43% !important;
   z-index: 999;
+  size: 30px;
 }
 
 .slick-next {
   position: absolute !important;
   top: 110% !important;
-  right: 50% !important;
+  right: 48% !important;
   z-index: 999;
+}
+
+.slick-prev:before {
+  font-family: "slick";
+  content: "<" !important;
+  font-size: 40px !important;
+  color: #644f9c !important;
+  padding: 4px 14px;
+  margin: auto;
+  opacity: 100%;
+  border-radius: 100%;
+  background-color: white !important;
+  line-height: 2 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.slick-next:before {
+  font-family: "slick";
+  content: ">" !important;
+  font-size: 40px !important;
+  color: #644f9c !important;
+  padding: 4px 14px;
+  margin: auto;
+  opacity: 100%;
+  border-radius: 100%;
+  background-color: white !important;
+  line-height: 2 !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 .slick-dots {

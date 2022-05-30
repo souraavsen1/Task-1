@@ -14,12 +14,10 @@ const Footer = () => {
             </p>
           </div>
           <div>
-            <p className='uppercase text-2xl text-center my-6'>
-              Follow us
-            </p>
+            <p className='uppercase text-2xl text-center my-6'>Follow us</p>
             <div className='flex items-center'>
-              <img className='mx-2 cursor-pointer' src={insta} alt='' />
-              <img className='cursor-pointer' src={facebook} alt='' />
+              <img className='cursor-pointer' src={insta} alt='' />
+              <img className='mx-2 cursor-pointer' src={facebook} alt='' />
               <img className='cursor-pointer' src={youtube} alt='' />
             </div>
           </div>
@@ -40,9 +38,7 @@ const Footer = () => {
         </div>
         <div className='px-3 px-lg-0'>
           <div>
-            <p className='text-purple text-2xl pb-3'>
-              Documentation
-            </p>
+            <p className='text-purple text-2xl pb-3'>Documentation</p>
           </div>
           <div className='flex flex-col justify-start items-start uppercase text-xl text-center font-bold'>
             <p className='my-3'>TERMS & CONDITIONS</p>
