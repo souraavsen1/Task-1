@@ -73,7 +73,7 @@ const Sliders = () => {
               <div class='flex justify-between items-center rounded-2xl p-2.5 border border-dashed border-tomoto'>
                 <div class='w-48 h-48 mr-10 bg-lightGray'></div>
                 <div class='text-purple font-medium text-xl mr-auto mb-auto py-4'>
-                  <h4 class='mb-8'>Title 2</h4>
+                  <h4 class='mb-8'>Title 3</h4>
                   <h4>Hello here will be another text</h4>
                 </div>
               </div>
@@ -98,7 +98,7 @@ const Sliders = () => {
                 <div class='flex justify-between items-center rounded-2xl p-2.5 border border-dashed border-tomoto'>
                   <div class='w-48 h-48 mr-10 bg-lightGray'></div>
                   <div class='text-purple font-medium text-xl mr-auto mb-auto py-4'>
-                    <h4 class='mb-8'>Title 4</h4>
+                    <h4 class='mb-8'>Title 5</h4>
                     <h4>Hello here will be another text</h4>
                   </div>
                 </div>
@@ -111,20 +111,7 @@ const Sliders = () => {
                 <div class='flex justify-between items-center rounded-2xl p-2.5 border border-dashed border-tomoto'>
                   <div class='w-48 h-48 mr-10 bg-lightGray'></div>
                   <div class='text-purple font-medium text-xl mr-auto mb-auto py-4'>
-                    <h4 class='mb-8'>Title 4</h4>
-                    <h4>Hello here will be another text</h4>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div>
-            <div>
-              <div className='mb-2 bg-white shadow-md shadow-gray-500 rounded-2xl p-2.5 mr-14'>
-                <div class='flex justify-between items-center rounded-2xl p-2.5 border border-dashed border-tomoto'>
-                  <div class='w-48 h-48 mr-10 bg-lightGray'></div>
-                  <div class='text-purple font-medium text-xl mr-auto mb-auto py-4'>
-                    <h4 class='mb-8'>Title 4</h4>
+                    <h4 class='mb-8'>Title 6</h4>
                     <h4>Hello here will be another text</h4>
                   </div>
                 </div>
