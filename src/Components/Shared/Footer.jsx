@@ -13,16 +13,16 @@ const Footer = () => {
               We are social
             </p>
           </div>
-          <div>
+          <div className="flex flex-col items-start">
             <p className='uppercase text-2xl text-center my-6'>Follow us</p>
-            <div className='flex items-center'>
+            <div className='flex justify-start items-center'>
               <img className='cursor-pointer' src={insta} alt='' />
               <img className='mx-2 cursor-pointer' src={facebook} alt='' />
               <img className='cursor-pointer' src={youtube} alt='' />
             </div>
-          </div>
-          <div className='uppercase font-extrabold text-3xl text-prototype text-center mt-10'>
-            Logo
+            <div className='uppercase font-extrabold text-3xl text-prototype text-center mt-10'>
+              Logo
+            </div>
           </div>
         </div>
         <div className='px-3 px-lg-0'>
