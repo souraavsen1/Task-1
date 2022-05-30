@@ -29,7 +29,7 @@ const Supports = () => {
         </div>
 
         <div>
-          <img
+            <img
             className='py-8 px-6 rounded-full bg-white shadow-md mx-auto'
             src={message}
             alt=''

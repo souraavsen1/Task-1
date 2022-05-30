@@ -1,6 +1,7 @@
 import React from "react";
 import AdFormats from "./AdFormats";
 import Banner from "./Banner";
+import Details from "./Details";
 import Supports from "./Supports";
 
 const Home = () => {
@@ -9,9 +10,7 @@ const Home = () => {
       <Banner />
       <Supports />
       <AdFormats />
-      <AdFormats />
-      <AdFormats />
-      <AdFormats />
+      <Details />
     </div>
   );
 };
