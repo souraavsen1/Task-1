@@ -4,7 +4,6 @@ import Icons from "../../Shared/Icons";
 import SectionTitle from "../../Shared/SectionTitle";
 
 const AdFormats = () => {
-  // const [active, setActive] = useState("");
   const [data, setData] = useState(adData[0]);
 
   const handleActive = (id) => {
